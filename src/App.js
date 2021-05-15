@@ -1,4 +1,9 @@
 import React from "react";
+import Jumbo from "./components/Jumbo";
+import Results from "./components/Results";
+import SearchForm from "./components/SearchForm";
+import SearchResults from "./components/SearchResults";
+
 
 function App() {
   return (
