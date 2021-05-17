@@ -3,11 +3,12 @@ import SearchForm from "./SearchForm";
 import Jumbo from "./Jumbo";
 import Results from "./Results";
 import API from "../utils/API";
+import "./jumbo.css";
 
 class ResultContainer extends Component {
     state = {
         search: "",
-        user: [],
+        users: [],
         results: [],
         first: 1,
         last: 1,
@@ -15,17 +16,22 @@ class ResultContainer extends Component {
     };
 
     componentDidMount = async () => {
-        const results = await this.randomUser();
-        await this.setState({ results, employees: results });
-    }
+        console.log("");
+        const results = await this.randomUser()
+        console.log(results);
+        this.setState({ results, users: results });
+    };
+
+
 
 
 
     randomUser = async () => {
-        let results = [];
+        let outcome = [];
         await API.search()
             .then((res) => {
-                results = res.data.results.map(result => {
+                console.log(res);
+                outcome = res.data.results.map(result => {
                     return {
                         first: result.name.first,
                         last: result.name.last,
@@ -36,7 +42,7 @@ class ResultContainer extends Component {
                 });
             })
             .catch((err) => console.log(err));
-        return results;
+        return outcome;
     };
 
     handleSort = async (event) => {
