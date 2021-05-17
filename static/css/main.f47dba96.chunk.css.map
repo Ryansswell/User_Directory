@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/jumbo.css"],"names":[],"mappings":"AAAA,EACE,cACF,CAEA,GACE,cACF","file":"main.f47dba96.chunk.css","sourcesContent":["p {\r\n  font-size: 50px;\r\n}\r\n\r\nh2 {\r\n  font-size: 25px;\r\n}\r\n"]}
