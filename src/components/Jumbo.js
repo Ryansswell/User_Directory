@@ -5,7 +5,7 @@ function Jumbo() {
     return (
         <div>
             <h2>
-                Ryan Anderson
+                Created by: Ryan Anderson
             </h2>
             <div className="jumbotron jumbotron-fluid text-dark jumbotron">
                 <div className="container">
