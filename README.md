@@ -1,45 +1,46 @@
-# User_Directory
+# User_Directory Professional README
 
 View a live demo of the app at https://ryansswell.github.io/User_Directory/
 
-Professional README.md
-
 ## Description
 
-React User Directory
+React User Directory:
+I created this app in design for users to be able to select or search for a specific user within this directory. This could be applied to a company so managers, human resources or anybody can view and sort between users. The data fields can be customized to help with user data.
 
-## License
-
-![ISC License](https://img.shields.io/static/v1.svg?label=License&message=MIT&color=yellow)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. - As a user, I want to be able to view my entire employee directory at once so that I can have quick access to user information.
+This was a fun assignment I had during my coding bootcamp.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Provided is an example of creating a user directory within your company or any directory that has a search function to find specific individuals!
 
-## Credits
+## Starting the app locally
 
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well. undefined
+Start by installing front and backend dependencies. While in this directory, run the following command:
 
-## How to Contribute
+npm install
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer. Ryan Anderson
+This should install node modules within the server and the client folder.
 
-## Tests
+After both installations complete, run the following command in your terminal:
 
-Provide examples or screenshots to prove working.
+npm start
 
-## Questions
+Your app should now be running on http://localhost:3000. The Express server should intercept any AJAX requests from the client.
 
-Any questions?
+## Deployed Link
+
+https://ryansswell.github.io/User_Directory/
+
+## ScreenShot
+
+![]()
+
+## Details and Information
 
 What is your GitHub username? @Ryansswell
 
 What is your email? ryan0425@msn.com
 
 What is the name of your project? React User Directory
+
+What is your LinkedIn? https://www.linkedin.com/in/ryan-anderson-52842784/
